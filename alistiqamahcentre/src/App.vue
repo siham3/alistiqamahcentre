@@ -1,9 +1,7 @@
 <template>
   <div>
     <header-section />
-    <body>
-      <home-page/>
-    </body>
+    <home-page />
     <footer-section />
   </div>
 </template>
@@ -15,12 +13,7 @@ import HomePage from './components/home/home-page.vue'
 </script>
 
 <style scoped>
-body {
-  background-color: #d4e2ec;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px 0;
+template {
+  background-color: #f9f6f7;
 }
 </style>
