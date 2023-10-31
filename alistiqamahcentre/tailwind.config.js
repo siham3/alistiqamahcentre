@@ -4,7 +4,11 @@ export const content = [
   "./node_modules/flowbite/**/*.js"
 ];
 export const theme = {
-  extend: {},
+  extend: {
+    colors: {
+      'lime':'#f1f2e3'
+    },
+  },
 };
 export const plugins = [
   // eslint-disable-next-line no-undef

@@ -1,6 +1,9 @@
 <template>
   <nav>
-    <div class="max-w-screen-xl px-4 py-3 mx-auto">
+    <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+      </span>
+    <div class="max-w-screen-xl px-6 py-3 mx-auto">
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">
           <li>
@@ -26,6 +29,9 @@
     </div>
   </nav>
 </template>
+<script setup lang="ts">
+
+</script>
 <style scoped>
 ul li a {
   color: #403b49;
