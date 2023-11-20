@@ -6,7 +6,7 @@
           About Us
         </h1>
         <p class="font-normal text-gray-700 dark:text-gray-400">
-          At Al Istiqamah Islamic Centre, we are more than just a place of worship; we are a beacon of guidance and unity for people of all ages and backgrounds. Our name, "Al Istigamah," reflects our core values and aspirations. Derived from the Arabic word "istiqamah," it embodies the concept of steadfastness, unwavering commitment to the path of righteousness, and staying true to the right direction without deviation.
+          At Al Istiqamah Islamic Centre, we are more than just a place of worship; we are a beacon of guidance and unity for people of all ages and backgrounds. Our name, "Al Istiqamah," reflects our core values and aspirations. Derived from the Arabic word "istiqamah," it embodies the concept of steadfastness, unwavering commitment to the path of righteousness, and staying true to the right direction without deviation.
         </p>
         <!-- <button type="button"
           class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
@@ -30,7 +30,7 @@
     </div>
     <div class="content3">
       <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">Our Mission</h1>
-      <p class="font-normal para2">Empowering young Muslims to lead and thrive, the Istiqama Center is a dynamic sanctuary rooted in unwavering faith and guided by timeless Islamic principles. Here, we nurture identities, provide spiritual guidance, and foster a profound sense of community and service. Together, we're crafting more than just a mosque; we're building a vibrant community where youth not only thrive but inspire, leaving a lasting mark on the Ummah. What sets us apart? Our local, youth-driven team knows the community intimately, and our vision is clear: to create a Center deeply grounded in the Quran and Sunnah, where youth flourish and adults find solace—a true second home for our cherished Muslim community.</p>
+      <p class="font-normal para2">At Al Istiqamah Centre, we're dedicated to nurturing an inclusive community rooted in Islamic teachings. We foster spiritual growth, provide a sacred space for worship, education, and service to humanity. Through Islamic principles and outreach, we inspire meaningful lives aligned with faith and integrity. Our mosque serves as a beacon of guidance and unity, nurturing diversity and promoting understanding of Islam's values for a better society.</p>
       <div>
         <ul class="grid-container3 content">
           <li>
