@@ -1,19 +1,17 @@
 <template>
   <div>
-    <div class="grid-container container-one mx-auto content1">
+    <div class="content1 grid-container container-one mx-auto">
       <div class="content  slide-in-blurred-bottom">
         <h1 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Al Istiqamah Islamic Centre
+          About Us
         </h1>
         <p class="font-normal text-gray-700 dark:text-gray-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris
+          At Al Istiqamah Islamic Centre, we are more than just a place of worship; we are a beacon of guidance and unity for people of all ages and backgrounds. Our name, "Al Istigamah," reflects our core values and aspirations. Derived from the Arabic word "istiqamah," it embodies the concept of steadfastness, unwavering commitment to the path of righteousness, and staying true to the right direction without deviation.
         </p>
-        <button type="button"
+        <!-- <button type="button"
           class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
           Learn More
-        </button>
+        </button> -->
       </div>
       <img src="\src\assets\mosquebuilding.png" class="icon-mosque slide-in-blurred-bottom" alt="Al Istiqamah building" />
     </div>
@@ -32,31 +30,27 @@
     </div>
     <div class="content3">
       <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">Our Mission</h1>
-      <p class="font-normal para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt
-        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+      <p class="font-normal para2">Empowering young Muslims to lead and thrive, the Istiqama Center is a dynamic sanctuary rooted in unwavering faith and guided by timeless Islamic principles. Here, we nurture identities, provide spiritual guidance, and foster a profound sense of community and service. Together, we're crafting more than just a mosque; we're building a vibrant community where youth not only thrive but inspire, leaving a lasting mark on the Ummah. What sets us apart? Our local, youth-driven team knows the community intimately, and our vision is clear: to create a Center deeply grounded in the Quran and Sunnah, where youth flourish and adults find solace—a true second home for our cherished Muslim community.</p>
       <div>
         <ul class="grid-container3 content">
           <li>
-            <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Reason Number 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Belonging</h2>
+            <p>Create a sense of belonging by building stronger bonds, encouraging mutual respect, and fostering dialogue among individuals of all generations.
             </p>
           </li>
           <li>
-            <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Reason Number 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+            <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Unity</h2>
+            <p> Bridge the gap between the generations, creating a cohesive environment that promotes understanding and connectedness.</p>
           </li>
           <li>
-            <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Reason Number 3</h2>
+            <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Faith</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
           </li>
         </ul>
       </div>
     </div>
-    <div class="content content1 grid-container">
+    <div class="content1 content grid-container">
       <img src="\src\assets\boypraying.png" class="icon-praying slide-in-blurred-bottom" alt="Al Istiqamah building" />
       <div class="content">
         <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">By The Youth</h1>
@@ -64,7 +58,7 @@
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
       </div>
     </div>
-    <div class="content content1 grid-container">
+    <div class="content1 content grid-container">
       <div class="content">
         <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">Our Programs</h1>
         <p class="font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -97,15 +91,19 @@
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  @media screen and (min-width: 610px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
 }
 
 .grid-container3 {
+  @media screen and (min-width: 610px) {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+}
 }
 
 .icon-mosque {
@@ -137,13 +135,13 @@
   background-color: #f1f2e3;
   color: #64559d;
   text-align: center;
-  padding: 4% 12%;
+  padding: 4% 12% 0;
   position: relative;
 }
 
 .para2 {
   font-size: 14px;
-  padding: 0 30%;
+  padding: 0 20%;
 }
 
 .block {

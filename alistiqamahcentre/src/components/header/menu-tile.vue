@@ -1,23 +1,23 @@
 <template>
   <nav>
     <span class="text-3xl cursor-pointer mx-2 md:hidden block">
-        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        <!-- <ion-icon name="menu" onclick="Menu(this)"></ion-icon> -->
       </span>
     <div class="max-w-screen-xl px-6 py-3 mx-auto">
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">
-          <li>
+          <!-- <li>
             <a href="#" class="text-gray-900 dark:text-white" aria-current="page">About Us</a>
-          </li>
+          </li> -->
           <li>
-            <a href="#" class="text-gray-900 dark:text-white">Our Mission</a>
+            <a href="#" class="text-gray-900 dark:text-white" aria-current="page">Our Mission</a>
           </li>
           <li>
             <a href="#" class="text-gray-900 dark:text-white">Programs</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#" class="text-gray-900 dark:text-white">Contact Us</a>
-          </li>
+          </li> -->
         </ul>
         <button
           type="button"
@@ -29,8 +29,7 @@
     </div>
   </nav>
 </template>
-<script setup lang="ts">
-
+<script lang="ts" setup>
 </script>
 <style scoped>
 ul li a {
