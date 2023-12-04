@@ -10,11 +10,11 @@
             <a href="#" class="text-gray-900 dark:text-white" aria-current="page">About Us</a>
           </li> -->
           <li>
-            <a href="#" class="text-gray-900 dark:text-white" aria-current="page">Our Mission</a>
+            <a onclick="document.getElementById('OurMission').scrollIntoView()" aria-current="page">Our Mission</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#" class="text-gray-900 dark:text-white">Programs</a>
-          </li>
+          </li> -->
           <!-- <li>
             <a href="#" class="text-gray-900 dark:text-white">Contact Us</a>
           </li> -->
@@ -30,6 +30,12 @@
   </nav>
 </template>
 <script lang="ts" setup>
+function scrollToMiddle(): void {
+  window.scrollTo({
+    top: 1000,
+    behavior: "smooth"
+  });
+}
 </script>
 <style scoped>
 ul li a {

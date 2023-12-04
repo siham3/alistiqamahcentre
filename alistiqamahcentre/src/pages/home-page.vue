@@ -22,47 +22,45 @@
         </h1>
         <p class="font-normal">
           to go straight into the right direction, acting rightly, allowing no deviation. It is derived from the stem
-          <b>Qiyyam</b>, which implies the continuity of doing something, following up with it and making sure that it is
-          done in
-          the right way and there is neither deviation nor swerving
+          <b>Qiyyam</b>, which implies the continuity of doing something, following up with it and making sure that it is done in the right way and there is neither deviation nor swerving
         </p>
       </div>
     </div>
     <div class="content3">
-      <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">Our Mission</h1>
-      <p class="font-normal para2">At Al Istiqamah Centre, we're dedicated to nurturing an inclusive community rooted in Islamic teachings. We foster spiritual growth, provide a sacred space for worship, education, and service to humanity. Through Islamic principles and outreach, we inspire meaningful lives aligned with faith and integrity. Our mosque serves as a beacon of guidance and unity, nurturing diversity and promoting understanding of Islam's values for a better society.</p>
+      <h1 id="OurMission" class="mb-2 text-3xl font-bold tracking-tight dark:text-white">Our Mission</h1>
+      <p class="font-normal para2">At Al Istiqamah Centre, we're dedicated to nurturing an inclusive community rooted in Islamic teachings. We foster spiritual growth, provide a sacred space for worship, education, and service to humanity.  Our mosque serves as a beacon of guidance and unity, nurturing diversity and promoting understanding of Islam's values for a better society.</p>
       <div>
-        <ul class="grid-container3 content">
+        <ul class="grid-container3">
           <li>
+            <img src="\src\assets\crescent-moon.png" class="mission-icons" alt="belonging" />
             <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Belonging</h2>
-            <p>Create a sense of belonging by building stronger bonds, encouraging mutual respect, and fostering dialogue among individuals of all generations.
+            <p>Create a sense of belonging by building stronger bonds and fostering dialogue among individuals of all generations.
             </p>
           </li>
           <li>
+            <img src="\src\assets\shalat.png" class="mission-icons" alt="Unity" />
             <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Unity</h2>
             <p> Bridge the gap between the generations, creating a cohesive environment that promotes understanding and connectedness.</p>
           </li>
           <li>
+            <img src="\src\assets\koran.png" class="mission-icons" alt="faith" />
             <h2 class="mb-2 text-1xl font-bold tracking-tight dark:text-white">Faith</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+            <p>Through Islamic principles and outreach, we inspire meaningful lives aligned with faith and integrity.</p>
           </li>
         </ul>
       </div>
     </div>
-    <div class="content1 content grid-container">
+    <!-- <div class="content1 content grid-container">
       <img src="\src\assets\boypraying.png" class="icon-praying slide-in-blurred-bottom" alt="Al Istiqamah building" />
-      <div class="content">
-        <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">By The Youth</h1>
-        <p class="font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+      <div>
+        <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">For the Community</h1>
+        <p>Our local, youth-driven team knows the community intimately, and our vision is clear: to create a Center deeply grounded in the Quran and Sunnah, where youth flourish and adults find solace—a true second home for our cherished Muslim community.</p>
       </div>
-    </div>
+    </div> -->
     <div class="content1 content grid-container">
       <div class="content">
         <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">Our Programs</h1>
-        <p class="font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        <p class="font-normal">Our local, youth-driven team knows the community intimately, and our vision is clear: to create a Center deeply grounded in the Quran and Sunnah, where youth flourish and adults find solace—a true second home for our cherished Muslim community.</p>
       </div>
       <img src="\src\assets\kidssitting.png" class="icon-praying slide-in-blurred-bottom" alt="Al Istiqamah building" />
     </div>
@@ -117,7 +115,8 @@
 .content {
   padding: 30px;
   position: relative;
-  padding: 8% 5%;
+  padding: 2% 5% 2%;
+  margin:auto;
 }
 
 .content1 {
@@ -135,13 +134,13 @@
   background-color: #f1f2e3;
   color: #64559d;
   text-align: center;
-  padding: 4% 12% 0;
+  padding: 4% 12%;
   position: relative;
 }
 
 .para2 {
   font-size: 14px;
-  padding: 0 20%;
+  padding: 2% 20%;
 }
 
 .block {
@@ -150,6 +149,11 @@
 
 .block:hover {
   transform: translateY(-5px);
+}
+
+.mission-icons {
+  padding: 10% 30%;
+  position: relative;
 }
 
 h3 p {
