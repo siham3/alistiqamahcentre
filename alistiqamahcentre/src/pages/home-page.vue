@@ -125,14 +125,14 @@
 
 .content2 {
   background-color: #bfbdc6;
-  color: #64559d;
+  color:#000000;
   text-align: center;
   padding: 11% 19%;
 }
 
 .content3 {
   background-color: #f1f2e3;
-  color: #64559d;
+  color: #000000;
   text-align: center;
   padding: 4% 12%;
   position: relative;
