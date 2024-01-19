@@ -62,7 +62,7 @@
         <h1 class="mb-2 text-3xl font-bold tracking-tight dark:text-white">Our Programs</h1>
         <p class="font-normal">Our local, youth-driven team knows the community intimately, and our vision is clear: to create a Center deeply grounded in the Quran and Sunnah, where youth flourish and adults find solace—a true second home for our cherished Muslim community.</p>
       </div>
-      <img src="\src\assets\kidssitting.png" class="icon-praying slide-in-blurred-bottom" alt="Al Istiqamah building" />
+      <img src="\src\assets\boypraying.png" class="icon-praying slide-in-blurred-bottom" alt="Al Istiqamah building" />
     </div>
   </div>
 </template>
