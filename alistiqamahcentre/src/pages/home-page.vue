@@ -8,10 +8,7 @@
         <p class="font-normal text-gray-700 dark:text-gray-400">
           At Al Istiqamah Islamic Centre, we are more than just a place of worship; we are a beacon of guidance and unity for people of all ages and backgrounds. Our name, "Al Istiqamah," reflects our core values and aspirations. Derived from the Arabic word "istiqamah," it embodies the concept of steadfastness, unwavering commitment to the path of righteousness, and staying true to the right direction without deviation.
         </p>
-         <button type="button"
-          class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
-          Learn More
-        </button> 
+          <router-link class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" to="/About">Learn More</router-link>
       </div>
       <img src="\src\assets\mosquebuilding.png" class="icon-mosque slide-in-blurred-bottom" alt="Al Istiqamah building" />
     </div>
