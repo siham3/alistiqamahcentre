@@ -29,6 +29,10 @@ const router = createRouter({
     // are using the hash history for simplicity here.
     history: createWebHistory(),
     routes, // short for `routes: routes`
+    scrollBehavior() {
+      // always scroll to top
+      return { top: 0 }
+    },
   });
 
   export default router;
