@@ -91,6 +91,10 @@ Come and be part of our Al Istiqamah family, where we walk the path of righteous
     margin-top: 8%;
     font: 400 20px/25px Source Serif Pro, sans-serif;
     padding: 0 50px;
+    @media (max-width: 991px) {
+      text-align: center;
+      justify-content: center;
+    }
   }
   /* .donate-button {
     justify-content: center;

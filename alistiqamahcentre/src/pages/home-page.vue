@@ -164,9 +164,18 @@ To create a centre deeply grounded in the Qur’an and Sunnah, where youth flour
   font-size: 33px;
   padding: 2%;
   text-align:center;
+  @media (max-width: 486px) {
+    font-size: 25px;
+    color: #4D4D4D;
+    padding: 5% 0 15%;
+  }
 }
 .content1 h1{
   padding: 0 0 25px 0;
+  @media (max-width: 991px) {
+    font-size: 40px;
+    padding: 0 0 10px 0;
+  }
 }
 .content1 #LearnMoreButton{
   position: relative;
@@ -178,6 +187,9 @@ To create a centre deeply grounded in the Qur’an and Sunnah, where youth flour
   color: #000000;
   text-align: center;
   padding: 0 10% 0;
+  @media (max-width: 991px) {
+    padding: 10% 5% 5%;
+  }
 }
 
 .content2 p{
@@ -186,6 +198,10 @@ To create a centre deeply grounded in the Qur’an and Sunnah, where youth flour
   text-align: left;
   padding: 6% 8%;
   line-height: 1.6;
+  @media (max-width: 991px) {
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 .content2 h1 {
@@ -216,7 +232,7 @@ To create a centre deeply grounded in the Qur’an and Sunnah, where youth flour
   left: 58%;
   z-index: 999;
   height:40%;
-  @media (max-width: 924px) {
+  @media (max-width: 920px) {
     display: none;
   }
 }
@@ -232,7 +248,13 @@ To create a centre deeply grounded in the Qur’an and Sunnah, where youth flour
 .content4{
   text-align: center;
   padding: 4% 12%;
-  position:relative
+  position:relative;
+}
+
+.content4 h1{
+  @media (max-width: 924px) {
+    font-size: 40px;
+  }
 }
 
 .content4 p

@@ -62,7 +62,7 @@
 
 @media (max-width: 991px) {
   .program-title {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 40px;
   }
 }
