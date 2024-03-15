@@ -35,7 +35,7 @@ Come and be part of our Al Istiqamah family, where we walk the path of righteous
     max-width: 1162px;
     flex-direction: column;
     font-weight: 700;
-    padding: 0 20px;
+    padding: 0px 20px 20px;
   }
   @media (max-width: 991px) {
     .content-container {

@@ -5,7 +5,7 @@
     </span>
     <div class="max-w-screen-xl px-6 py-3 mx-auto">
       <div class="flex items-center">
-        <ul class="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">
+        <ul class="flex flex-row font-medium mt-0 mr-6 space-x-8">
           <li>
             <router-link class="text-gray-900 dark:text-white" to="/">Home</router-link>
           </li>

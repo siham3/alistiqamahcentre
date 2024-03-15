@@ -1,6 +1,6 @@
 <template>
   <footer class="m-4">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+    <div class="footer w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a class="flex items-center justify-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
               <img src= "/src/assets/IMG_4680.png" class="h-16" alt="Al Istaqama Logo"/>
@@ -13,7 +13,7 @@
                   <router-link class="hover:underline me-4 md:me-6" to="/About">About</router-link>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline me-4 md:me-6">Programs</a>
+                  <router-link class="hover:underline me-4 md:me-6" to="/Program">Programs</router-link>
                 </li>
                 <li> 
                     <!-- <button
@@ -31,7 +31,9 @@
   </footer>
 </template>
 <style scoped>
-
+.footer{
+  padding: 1.2% 5%;
+}
 @media (min-width: 640px) {
   .footer:justify-between {
     justify-content: center;

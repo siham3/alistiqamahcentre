@@ -2,7 +2,7 @@
 <template>
   <div id="header">
     <nav class="border-gray-200 dark:bg-gray-900">
-      <div class="flex flex-wrap justify-normal items-center mx-auto max-w-screen-xl p-4">
+      <div class="header flex flex-wrap justify-normal items-center mx-auto max-w-screen-xl">
         
         <img src="\src\assets\Logo1-B&W.png" class="h-28 mr-3" alt="Al Istiqamah Logo" />
         <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Al Istiqamah Centre</span> -->
@@ -23,6 +23,9 @@ import MenuTile from "./menu-tile.vue"
 
 </script>
 <style scoped>
+.header{
+  padding: 1.2% 5%;
+}
 div {
   color: #403b49;
   /* margin: 0 2% 0 2%; */
@@ -35,7 +38,4 @@ div {
 * { 
   background-color: #FFFFFF;
   }
-/* #header{
-  border-bottom:1.5px solid #403b49
-} */
 </style>
