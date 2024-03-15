@@ -168,3 +168,8 @@ a,
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@font-face {
+  font-family: Belleza;
+  src: url(fonts/Belleza-Regular.ttf);
+}

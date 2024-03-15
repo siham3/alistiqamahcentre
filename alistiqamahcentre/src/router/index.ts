@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 export enum RouteName {
   ABOUTUS = 'AboutUs',
-  HOME = 'Home'
+  HOME = 'Home',
+  PROGRAMS = 'Program'
 }
 
 export const routes = [
@@ -10,6 +11,11 @@ export const routes = [
     path: '/About',
     name: RouteName.ABOUTUS,
     component: () => import('../pages/about-us-page.vue')
+  }, 
+  {
+    path: '/Program',
+    name: RouteName.PROGRAMS,
+    component: () => import('../pages/programs-page.vue')
   },
     {
         path: '/',

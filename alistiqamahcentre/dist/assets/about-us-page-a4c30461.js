@@ -1,1 +1,0 @@
-import{_ as s,r as e,o as a,c as r,a as o}from"./index-ee36fbd7.js";const _={};function p(u,f){const t=e("header-section"),n=e("about-us-page",!0),c=e("footer-section");return a(),r("div",null,[o(t),o(n),o(c)])}const m=s(_,[["render",p]]);export{m as default};
