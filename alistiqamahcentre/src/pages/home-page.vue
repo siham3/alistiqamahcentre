@@ -294,6 +294,7 @@ To create a centre deeply grounded in the Qur’an and Sunnah, where youth flour
 
 h2{
   font-size: 23px;
+  font-family: Belleza;
 }
 
 h3 p {
