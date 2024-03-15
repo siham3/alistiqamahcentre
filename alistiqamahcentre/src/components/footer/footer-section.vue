@@ -26,7 +26,7 @@
             </ul>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2024 <a href="https://AlIstaqama.ca/" class="hover:underline">Al Istaqamah Centre</a>. All Rights Reserved.</span>
+        <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2024 <a href="https://AlIstiqama.ca/" class="hover:underline">Al Istiqamah Centre</a>. All Rights Reserved.</span>
     </div>
   </footer>
 </template>
