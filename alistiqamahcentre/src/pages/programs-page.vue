@@ -2,7 +2,7 @@
 <div>
     <main class="content-container">
     <h1 class="page-title slide-in-blurred-bottom">Programs</h1>
-    <h2 class="program-title slide-in-blurred-bottom">RAMADAN KHATMAH 2024</h2>
+    <h2 class="program-title slide-in-blurred-bottom">RAMADAN <br> QURAN READING COMPETITION 2024</h2>
     <div class="centre-image"></div>
     <p class="program-description">
       Al Istiqamah Centre is proud to announce the 1st annual Ramadan Quran Completion competition! We are excited to
