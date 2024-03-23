@@ -22,7 +22,7 @@
       <h2 class="program-title slide-in-blurred-bottom">
         BOYS LEADERBOARD
       </h2>
-      <p>Date: 2024-04-30</p>
+      <p>Date: 2024-03-22 Week 1</p>
      <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
       <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -47,7 +47,7 @@
     <h2 class="program-title slide-in-blurred-bottom">
         GIRLS LEADERBOARD
       </h2>
-      <p>Date: 2024-04-30</p>
+      <p>Date: 2024-03-22 Week 1</p>
       
       <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
       <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
