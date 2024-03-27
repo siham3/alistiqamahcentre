@@ -44,7 +44,7 @@ To create a centre deeply grounded in the Qur’an and Sunnah, where youth flour
  /استقامة/    
 </h2>    
         <p>
-          to go straight into the right path, acting rightly, allowing no deviation. It is from the identical root that the phrase mustaqeem is derived (i.e sitar-al-mustaqeem - the straight path.) It may be translated as ‘steadfastness’.
+          to go straight into the right path, acting rightly, allowing no deviation. It is from the identical root that the phrase mustaqeem is derived (i.e sirat-al-mustaqeem - the straight path.) It may be translated as ‘steadfastness’.
         </p>
       </div>
     </div>
