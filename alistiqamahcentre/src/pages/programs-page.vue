@@ -22,77 +22,147 @@
       <h2 class="program-title slide-in-blurred-bottom">
         BOYS LEADERBOARD
       </h2>
-      <p>Date: 2024-03-22 Week 1</p>
-     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-                <th v-for="item in table" scope="col" class="px-6 py-3">
-                    {{item}}
+      <section>
+        <p>Date: 2024-03-30 Week 1+2+3 Total Ranking</p>
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+              <tr>
+                <th v-for="item in table" :key="item" scope="col" class="px-6 py-3">
+                  {{ item }}
                 </th>
-            </tr>
-        </thead>
-        <tbody>
-          <tr v-for="(data, index) in Boys" class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-              {{ index }}
-            </th>
-            <td v-for="item in data" class="px-6 py-4">
-              {{ item }}
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(data, index) in BoysTotal" :key="index"
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  {{ index }}
+                </th>
+                <td v-for="item in data" :key="item" class="px-6 py-4">
+                  {{ item }}
                 </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <h2 class="program-title slide-in-blurred-bottom">
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <p>Date: 2024-03-30 Week 3</p>
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+              <tr>
+                <th v-for="item in table" :key="item" scope="col" class="px-6 py-3">
+                  {{ item }}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(data, index) in BoysWeek3" :key="index"
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  {{ index }}
+                </th>
+                <td v-for="item in data" :key="item" class="px-6 py-4">
+                  {{ item }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <h2 class="program-title slide-in-blurred-bottom">
         GIRLS LEADERBOARD
       </h2>
-      <p>Date: 2024-03-22 Week 1</p>
-      
+      <p>Date: 2024-03-30 Week 1+2+3 Total Ranking</p>
       <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-                <th v-for="item in table" scope="col" class="px-6 py-3">
-                    {{ item }}
-                </th>
+              <th v-for="item in table" :key="item" scope="col" class="px-6 py-3">
+                {{ item }}
+              </th>
             </tr>
-        </thead>
-        <tbody>
-          <tr v-for="(data, index) in Girls" class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-              {{ index }}
-            </th>
-            <td v-for="item in data" class="px-6 py-4">
-              {{ item }}
-                </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+          </thead>
+          <tbody>
+            <tr v-for="(data, index) in GirlsTotal" :key="index"
+              class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                {{ index }}
+              </th>
+              <td v-for="item in data" :key="item" class="px-6 py-4">
+                {{ item }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br>
+      <p>Date: 2024-03-30 Week 3</p>
+      <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+              <th v-for="item in table" :key="item" scope="col" class="px-6 py-3">
+                {{ item }}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(data, index) in GirlsWeek3" :key="index"
+              class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                {{ index }}
+              </th>
+              <td v-for="item in data" :key="item" class="px-6 py-4">
+                {{ item }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
   </div>
 </template>
 <script lang="ts" setup>
 
-const table = 
+const table =
   ['Rank', 'Team', 'Juz Count', 'Quran Completion'];
 
-const Boys = {
-  '1st': ['Abdullah', '273', '9.1'],
-  '2nd': ['Amiin', '183.6', '6.1'],
-  '3rd': ['Amrani', '168.8', '5.9'],
-  '4th': ['Barento', '165.8', '5.6'],
-  '5th': ['Mustafa', '178.1', '5.5'],
-  '6th': ['Makahil', '159.6', '5.3']
+const BoysTotal = {
+  '1st': ['Abdullah', '980.7', '32.6'],
+  '2nd': ['Makahil', '874.3', '29.1'],
+  '3rd': ['Amrani', '855.7', '28.5'],
+  '4th': ['Amiin', '754.1', '25.1'],
+  '5th': ['Mustafa', '672.4', '22.4'],
+  '6th': ['Barento', '610.9', '20.3']
 };
-const Girls = {
-  '1st': ['S.Elmi', '337.4', '11.2'],
-  '2nd': ['A.Said', '219.3', '7.3'],
-  '3rd': ['H.Madar', '197.5', '6.6'],
-  '4th': ['H.Bakal', '136.8', '4.6'],
-  '5th': ['M.Abdulfatah', '133.7', '4.5'],
-  '6th': ['A.Good', '103.4', '3.4']
+
+const BoysWeek3 = {
+  '1st': ['Amrani', '359.5', '11.9'],
+  '2nd': ['Abdullah', '303.2', '10.1'],
+  '3rd': ['Barento', '276.6', '9.2'],
+  '4th': ['Amiin', '239.9', '7.9'],
+  '5th': ['Makahil', '226.2', '7.5'],
+  '6th': ['Mustafa', '219.7', '7.3']
+};
+
+const GirlsWeek3 = {
+  '1st': ['S.Elmi', '613.6', '20.4'],
+  '2nd': ['M.Abdulfatah', '469.9', '15.6'],
+  '3rd': ['A.Said', '421.6', '14'],
+  '4th': ['H.Bakal', '368.4', '12.2'],
+  '5th': ['H.Madar', '262.6', '8.7'],
+  '6th': ['A.Good', '261.6', '8.7']
+};
+
+const GirlsTotal = {
+  '1st': ['S.Elmi', '1555.1', '51.8'],
+  '2nd': ['A.Said', '1000.7', '33.3'],
+  '3rd': ['H.Bakal', '906.5', '30.2'],
+  '4th': ['M.Abdulfatah', '869.5', '28.9'],
+  '5th': ['H.Madar', '696', '23.2'],
+  '6th': ['A.Good', '663.6', '22.12']
 };
 </script>
 
@@ -174,11 +244,12 @@ const Girls = {
     margin-top: 40px;
   }
 }
+
 .quran-verse {
   color: rgba(189, 146, 93, 1);
 }
 
-p{
+p {
   text-align: center;
 }
 
@@ -186,5 +257,4 @@ table {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
-}
-</style>
+}</style>
