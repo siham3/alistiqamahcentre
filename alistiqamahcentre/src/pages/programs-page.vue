@@ -150,7 +150,7 @@ const BoysWeek4 = {
 const GirlsWeek4 = {
   '1st': ['S.Elmi', '656.8', '21.9'],
   '2nd': ['M.Abdulfatah', '557', '18.5'],
-  '3rd': ['H.Madar', '453.9', '15.3'],
+  '3rd': ['H.Madar', '453.9', '15.1'],
   '4th': ['A.Said', '395.1', '13.1'],
   '5th': ['H.Bakal', '312.7', '10.4'],
   '6th': ['A.Good', '306.4', '10.21']
