@@ -23,7 +23,7 @@
         BOYS LEADERBOARD
       </h2>
       <section>
-        <p>Date: 2024-03-30 Week 1+2+3 Total Ranking</p>
+        <p>Date: 2024-03-30 Week 1+2+3+4 Total Ranking</p>
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
           <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -47,7 +47,7 @@
           </table>
         </div>
         <br>
-        <p>Date: 2024-03-30 Week 3</p>
+        <p>Date: 2024-03-30 Week 4</p>
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
           <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -58,7 +58,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="(data, index) in BoysWeek3" :key="index"
+              <tr v-for="(data, index) in BoysWeek4" :key="index"
                 class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                   {{ index }}
@@ -74,7 +74,7 @@
       <h2 class="program-title slide-in-blurred-bottom">
         GIRLS LEADERBOARD
       </h2>
-      <p>Date: 2024-03-30 Week 1+2+3 Total Ranking</p>
+      <p>Date: 2024-03-30 Week 1+2+3+4 Total Ranking</p>
       <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -98,7 +98,7 @@
         </table>
       </div>
       <br>
-      <p>Date: 2024-03-30 Week 3</p>
+      <p>Date: 2024-03-30 Week 4</p>
       <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -109,7 +109,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-for="(data, index) in GirlsWeek3" :key="index"
+            <tr v-for="(data, index) in GirlsWeek4" :key="index"
               class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 {{ index }}
@@ -130,39 +130,39 @@ const table =
   ['Rank', 'Team', 'Juz Count', 'Quran Completion'];
 
 const BoysTotal = {
-  '1st': ['Abdullah', '980.7', '32.6'],
-  '2nd': ['Makahil', '874.3', '29.1'],
-  '3rd': ['Amrani', '855.7', '28.5'],
-  '4th': ['Amiin', '754.1', '25.1'],
-  '5th': ['Mustafa', '672.4', '22.4'],
-  '6th': ['Barento', '610.9', '20.3']
+  '1st': ['Abdullah', '1351.7', '45.0'],
+  '2nd': ['Makahil', '1157.1', '38.5'],
+  '3rd': ['Amrani', '1097', '36.5'],
+  '4th': ['Barento', '1040.7', '34.7'],
+  '5th': ['Mustafa', '943.2', '31.44'],
+  '6th': ['Amiin', '934.6', '31.1']
 };
 
-const BoysWeek3 = {
-  '1st': ['Amrani', '359.5', '11.9'],
-  '2nd': ['Abdullah', '303.2', '10.1'],
-  '3rd': ['Barento', '276.6', '9.2'],
-  '4th': ['Amiin', '239.9', '7.9'],
-  '5th': ['Makahil', '226.2', '7.5'],
-  '6th': ['Mustafa', '219.7', '7.3']
+const BoysWeek4 = {
+  '1st': ['Barento', '429.8', '14.3'],
+  '2nd': ['Abdullah', '371', '12.3'],
+  '3rd': ['Makahil', '282.9', '9.4'],
+  '4th': ['Mustafa', '254.8', '8.5'],
+  '5th': ['Amrani', '241.3', '8.0'],
+  '6th': ['Amiin', '180.5', '6.0']
 };
 
-const GirlsWeek3 = {
-  '1st': ['S.Elmi', '613.6', '20.4'],
-  '2nd': ['M.Abdulfatah', '469.9', '15.6'],
-  '3rd': ['A.Said', '421.6', '14'],
-  '4th': ['H.Bakal', '368.4', '12.2'],
-  '5th': ['H.Madar', '262.6', '8.7'],
-  '6th': ['A.Good', '261.6', '8.7']
+const GirlsWeek4 = {
+  '1st': ['S.Elmi', '656.8', '21.9'],
+  '2nd': ['M.Abdulfatah', '557', '18.5'],
+  '3rd': ['H.Madar', '453.9', '15.3'],
+  '4th': ['A.Said', '395.1', '13.1'],
+  '5th': ['H.Bakal', '312.7', '10.4'],
+  '6th': ['A.Good', '306.4', '10.21']
 };
 
 const GirlsTotal = {
-  '1st': ['S.Elmi', '1555.1', '51.8'],
-  '2nd': ['A.Said', '1000.7', '33.3'],
-  '3rd': ['H.Bakal', '906.5', '30.2'],
-  '4th': ['M.Abdulfatah', '869.5', '28.9'],
-  '5th': ['H.Madar', '696', '23.2'],
-  '6th': ['A.Good', '663.6', '22.12']
+  '1st': ['S.Elmi', '2212', '73.7'],
+  '2nd': ['M.Abdulfatah', '1426', '47.5'],
+  '3rd': ['A.Said', '1396', '46.5'],
+  '4th': ['H.Bakal', '1219', '40.6'],
+  '5th': ['H.Madar', '1150', '49.5'],
+  '6th': ['A.Good', '970', '32.3']
 };
 </script>
 
