@@ -8,17 +8,17 @@
         <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Al Istiqamah Centre</span> -->
         <MenuTile />
        
-        <!-- <button
-          type="button"
+        <button
+          type="submit"
           class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
-        >
+          onclick="location.href='https://pn8m01upvtp.typeform.com/to/ja726ulL';">
           Donate
-        </button> -->
+        </button>
       </div>
     </nav>
   </div>
 </template>
-<script setup lang="ts">
+<script lang="ts" setup>
 import MenuTile from "./menu-tile.vue"
 
 </script>
@@ -26,13 +26,17 @@ import MenuTile from "./menu-tile.vue"
 .header{
   padding: 1.2% 5%;
 }
+.button{
+  margin: 20%;
+}
 div {
   color: #403b49;
   /* margin: 0 2% 0 2%; */
   /* @media screen and (max-width: 611px) {
   justify-content: space-between;} */
   @media screen and (max-width: 794px) {
-  justify-content: space-evenly;}
+  justify-content: space-evenly;
+}
   
 }
 * { 

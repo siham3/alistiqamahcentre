@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!-- <img src="\src\assets\pattern_left.png" class="left-star" alt="Star design" />
-    <img src="\src\assets\pattern_right.png" class="right-star" alt="Star design" /> -->
     <div class="content1 container-one mx-auto">
       <div class="content">
         <h1 class="mb-2 text-8xl tracking-tight dark:text-white">
@@ -18,6 +16,7 @@
         </div>
       </div>
     </div>
+    <div class="Donation Form"></div>
     <div class="content2">
       <div class="page-blocks">
         <h1 class="mb-2 text-5xl tracking-tight dark:text-white">
