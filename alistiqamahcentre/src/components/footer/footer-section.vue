@@ -16,12 +16,12 @@
                   <router-link class="hover:underline me-4 md:me-6" to="/Program">Programs</router-link>
                 </li>
                 <li> 
-                    <!-- <button
-          type="button"
-          class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-            4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
-        >
-          Donate
-        </button> -->
+                  <button
+          type="submit"
+          class="text-white bg-yellow-500 hover:bg-yellow-600 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-yellow-800 dark:hover:bg-yellow-700 dark:focus:ring-yellow-700 dark:border-yellow-700"
+          onclick="location.href='https://ca.mohid.co/ab/wcs/alistiqamahcenter/masjid/online/donation';">
+          Donate Now!
+        </button>
               </li>
             </ul>
         </div>
@@ -38,5 +38,9 @@
   .footer:justify-between {
     justify-content: center;
   }
+}
+
+li{
+  margin: 2%;
 }
 </style>

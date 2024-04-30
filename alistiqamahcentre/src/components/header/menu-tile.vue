@@ -47,4 +47,8 @@ ul li a {
 button {
   background-color: #403b49;
 }
+
+li{
+  padding: 1%;
+}
 </style>
